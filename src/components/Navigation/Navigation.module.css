@@ -1,0 +1,58 @@
+.header {
+  padding: 20px 64px;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--main);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+.nav {
+  display: flex;
+  gap: 28px;
+}
+.link {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--main);
+}
+.active {
+  color: #336ebb;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.svg {
+  stroke: var(--blue);
+}
+.buttons button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--main);
+  background-color: transparent;
+}
+.registr {
+  color: #fff;
+  border-radius: 12px;
+  padding: 14px 39px;
+  width: 166px;
+  height: 48px;
+  background-color: var(--main);
+}
